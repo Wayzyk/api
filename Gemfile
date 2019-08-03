@@ -19,6 +19,9 @@ gem 'jbuilder', '~> 2.6'
 # Cross-Origin Resource Sharing
 gem 'rack-cors', '~> 0.4.0'
 
+# image server
+gem 'carrierwave', '~> 0.11.2'
+
 group :development, :test do
   gem 'factory_bot_rails', '~> 4.11.1'
   gem 'faker', '~> 1.9.3'
