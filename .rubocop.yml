@@ -1,0 +1,17 @@
+require: rubocop-rspec
+
+AllCops:
+  Includes:
+    - Rakefile
+    - config.ru
+  Excludes:
+    - db/**/*
+    - vendor/**/*
+    - tmp/**/*
+    - bin/**/*
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
