@@ -17,7 +17,7 @@ gem 'pg', '~> 0.18.4'
 gem 'jbuilder', '~> 2.6'
 
 # Cross-Origin Resource Sharing
-gem 'rack-cors', '~> 0.4.0'
+gem 'rack-cors', '~> 1.0.5'
 
 # image server
 gem 'carrierwave', '~> 0.11.2'
