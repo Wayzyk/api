@@ -8,7 +8,7 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.3'
 
 # Application Server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 
 # Supported DBs
 gem 'pg', '~> 0.18.4'
